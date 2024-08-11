@@ -1,0 +1,32 @@
+{
+  "name": "issue-radix-react-checkbox",
+  "private": true,
+	"type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@acdh-oeaw/lib": "^0.1.12",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "lucide-react": "^0.427.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.14",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.5.4"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {}
+    }
+  }
+}
